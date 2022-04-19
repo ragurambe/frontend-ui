@@ -1,0 +1,18 @@
+.willmore-btn {
+  border: none;
+  border-radius: 30px;
+  display: inline-block;
+  font-size: 15px;
+  padding: 14px 40px 12px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 700;
+  background: #0073b1;
+  letter-spacing: 1px;
+  border: 1px solid #0073b1;
+}
+
+.disabled {
+  opacity: 0.7;
+  pointer-events: none;
+}

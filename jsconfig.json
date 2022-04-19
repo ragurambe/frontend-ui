@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./",
+    "paths": {
+      "@Components/*": ["src/components/*"],
+      "@Root/*": ["/*"],
+      "@Constants/*": ["src/constants/*"],
+      "@Helpers/*": ["src/helpers/*"],
+      "@Scenes/*": ["src/scenes/*"],
+      "@Services/*": ["src/services/*"],
+      "@Models/*": ["src/models/*"],
+      "@Assets/*": ["src/assets/*"],
+      "@Variables/*": ["src/styles/variables/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}

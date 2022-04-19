@@ -1,0 +1,32 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Poppins", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f6f9fb !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Poppins", sans-serif;
+}
+
+.loading-background {
+  opacity: 0.7;
+  display: none;
+}
+
+.loading-background.show {
+  display: block;
+}
+
+.loading-background.hide {
+  display: none;
+}
